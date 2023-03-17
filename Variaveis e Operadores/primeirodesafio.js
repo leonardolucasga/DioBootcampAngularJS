@@ -11,4 +11,4 @@ const distEmKm = 100;
 
 const litroConsumidos = distEmKm /kmPorLitros;
 const precoViagem = precoCombustivel*litroConsumidos;
-console.log(`O preço que foi gasto foi de R$ ${precoViagem} `);
+console.log(`O preço que foi gasto foi de R$ ${precoViagem.toFixed(2)} `); // Entre parenteses o número de casas decimais desejado.
