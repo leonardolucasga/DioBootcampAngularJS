@@ -1,0 +1,49 @@
+Requisição HTTP:
+
+URL: https://pokeapi.co/api/v2/pokemon
+${Endereço}//${path = caminho de identificação do recurso}
+
+
+Request Method: GET| POST | PUT | DELETE ;
+
+Query String Sintaxe:
+Inicia tudo que vem após a interrogação (chave-valor). e caso queira adcionar mais de um filtro, utilizar o "E comercial" === &.
+URL: https://pokeapi.co/api/v2/pokemon?type=grass&name=i
+type = grass;
+name = i;
+https://pokeapi.co/api/v2/pokemon?offset=1&limit=2
+
+offset = 4;
+limit = 2;
+
+Request Headers:
+Configuração
+
+Authorization Bearer;
+accept-language:
+pt-BR;q=1;
+pt;q=0.9;
+en-US;q=0.8;
+en;q=0.7;
+gl;q=0.6;
+
+
+Response Headers: 
+Configuração
+content-type: appication/json
+
+
+Resquest Body:
+Corpo da Requisição;
+{
+    "name": "teste"
+}
+
+Status Code
+Response Headers
+Response Body
+Se a requisição foi ou não processada.
+200 - 299 = Sucesso
+300 - 399 = Redirect
+400 - 499 = erro do cliente
+500 - 599 = erro do Servidor.
